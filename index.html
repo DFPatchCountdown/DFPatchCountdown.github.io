@@ -3,63 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Time until DF 5.0 Release Day</title>
-    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
-	<link type="text/css" href="https://raw.githubusercontent.com/epiksel/countdown/master/jquery.countdown.css" rel="stylesheet">
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<link type="text/css" href="jquery.countdown.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="https://raw.githubusercontent.com/epiksel/countdown/master/jquery.countdown.min.js"></script>
+	<script type="text/javascript" src="jquery.countdown.min.js"></script>
 	<style>
+	@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);
 body {
 	background: #363f48;
 	color: white;
 	font: normal 12px 'Open Sans', sans-serif;
 	margin-top: 20px;
 }
-.days{
-    color: #ecf0f1;
-    font-size: 150px;
-    
-    font-family: 'Roboto', serif;
-    margin: 10px;
-    text-align: center;
-}
-.hours{
-    color: #ecf0f1;
-    font-size: 150px;
-    
-    font-family: 'Roboto', serif;
-    margin: 10px;
-    text-align: center;
-}
-.minutes{
-    color: #ecf0f1;
-    font-size: 150px;
-    
-    font-family: 'Roboto', serif;
-    margin: 10px;
-    text-align: center;
-}
-.seconds{
-    color: #ecf0f1;
-    font-size: 150px;
-    
-    font-family: 'Roboto', serif;
-    margin: 10px;
-    text-align: center;
-}
-.text {
-    color: #1abc9c;
-    font-size: 40px;
-    font-family: 'Roboto Condensed', serif;
-    
-    margin-top:10px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-	</style>
+</style>
 </head>
 <body>
-<h1 style="margin-top:150px">Time until DF 5.0 Release Day</h1>
+<h1 style="margin-top:150px">DF 5.0 Release Date</h1>
 	<ul id="example">
 	  <li><span class="days">00</span><p class="days_text">Days</p></li>
 		<li class="seperator">:</li>
@@ -72,12 +31,12 @@ body {
 
 	<script type="text/javascript">
 		$('#example').countdown({
-			date: '06/22/2019 12:00:00',
+			date: '06/22/2019 00:00:00',
 			offset: -8,
 			day: 'Day',
 			days: 'Days'
 		}, function () {
-			alert('Now wait jery to wake up uwu');
+			alert('Wait for jere!');
 		});
 	</script>
 	
