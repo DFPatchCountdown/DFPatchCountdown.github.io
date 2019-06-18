@@ -10,6 +10,7 @@ ul#example li {
 	display: inline-block;
 }
 ul#example li span {
+	color: #ecf0f1;
 	font-size: 80px;
 	font-weight: 300;
 	line-height: 80px;
@@ -20,7 +21,7 @@ ul#example li.seperator {
 	vertical-align: top;
 }
 ul#example li p {
-	color: #a7abb1;
+	color: #1abc9c;
 	font-size: 25px;
 }
 body {
