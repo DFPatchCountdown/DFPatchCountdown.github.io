@@ -28,9 +28,16 @@ ul#example li p {
 	font-size: 25px;
 	font-family: 'Roboto Condensed', sans-serif;
 }
+@font-face {
+  font-family: 'Hey Gorgeous';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Hey Gorgeous'), local('Hey Gorgeous'), url(https://github.com/DFPatchCountdown/DFPatchCountdown.github.io/raw/master/heygorgeous.ttf) format('truetype');
+}
 h1 {
   color: #ecf0f1;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Hey Gorgeous', sans-serif;
 }
 body {
 	background: #363f48;
