@@ -23,3 +23,9 @@ ul#example li p {
 	color: #a7abb1;
 	font-size: 25px;
 }
+body {
+	background: #363f48;
+	color: white;
+	font: normal 12px 'Open Sans', sans-serif;
+	margin-top: 20px;
+}
