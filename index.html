@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Time until DF 5.0 Release Day</title>
-	<link rel="shortcut icon" href="favicon.ico" />
-    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-	<link type="text/css" href="dark.css" rel="stylesheet">
-	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="jquery.countdown.min.js"></script>
+	<title>Time until DF 5.0 Release Day</title>      
+	<!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-<h1 style="margin-top:150px">DF 5.0 Release Date (TimeZone PDT)</h1>
-<h1 style="margin-top:10px">Cooldown end at 9:00:00 in PDT Time Zone</h1>
+<h1 style="margin-top:140px">DF 5.0 Release Date (TimeZone PDT)</h1>
+<h1 style="margin-top:10px">Cooldown end at 09:00:00 in PDT Time Zone</h1>
 <h1 style="margin-top:10px">Maybe release before/after that time idk</h1>
-<h1 style="margin-top:10px">UPDATE: as what jere said "Release is not going to be sooner than 9AM PDT on Saturday"</h1>
+<h1 style="margin-top:10px">UPDATE: Jere said it will be at 9AM</h1>
 <h1 style="margin-top:130px"></h1>
+<h5 class="center-align">
 	<ul id="example">
 	  <li><span class="days">00</span><p class="days_text">Days</p></li>
 		<li class="seperator">:</li>
@@ -24,8 +27,23 @@
 		<li class="seperator">:</li>
 		<li><span class="seconds">00</span><p class="seconds_text">Seconds</p></li>
 	</ul>
+</h5>
+<a style="margin-top:140px"  id="theme" class="btn waves-effect waves-green">Change Theme</a>
+	<link rel="shortcut icon" href="favicon.ico" />
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<link href="dark.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="jquery.countdown.min.js"></script>
+      <script type="text/javascript" src="materialize.min.js"></script>
 
 	<script type="text/javascript">
+	  M.AutoInit();
+document.getElementById('theme').addEventListener('click', function () {
+    theme.InnerHTML = "Theme Changed";
+	document.body.classList.toggle('light-theme');
+    theme.InnerHTML = "Change Theme";
+
+});
 		$('#example').countdown({
 			date: '06/22/2019 9:00:00',
 			offset: -7,
@@ -35,7 +53,6 @@
 			alert('Wait for jere!');
 		});
 	</script>
-	
 </body>
 </html>
 	
