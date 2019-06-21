@@ -13,7 +13,7 @@ ul#example li {
 }
 
 ul#example li span {
-	color: #ecf0f1;
+	color: #fff;
 	font-size: 80px;
 	font-weight: 300;
 	line-height: 80px;
@@ -21,11 +21,11 @@ ul#example li span {
 }
 
 .light-theme ul#example li span {
-	color: #363f48;
+	color: #36393f;
 }
 
 ul#example li.seperator {
-	color: #ecf0f1;
+	color: #fff;
 	font-size: 80px;
 	line-height: 70px;
 	vertical-align: top;
@@ -33,7 +33,7 @@ ul#example li.seperator {
 }
 
 .light-theme ul#example li.seperator {
-	color: #363f48;
+	color: #36393f;
 }
 
 ul#example li p {
@@ -49,17 +49,17 @@ ul#example li p {
 }
 
 h1 {
-	color: #ecf0f1;
+	color: #fff;
 	font-family: 'Hey Gorgeous', sans-serif;
 	font-size: 20px;
 }
 
 .light-theme h1 {
-	color: #363f48;
+	color: #36393f;
 }
 
 body {
-	background-color: #363f48;
+	background-color: #36393f;
 	color: #ecf0f1;
 	margin-top: 20px;
 	-webkit-tap-highlight-color: transparent;
@@ -67,6 +67,6 @@ body {
 }
 
 body.light-theme {
-	background-color: #ecf0f1;
-	color: #363f48;
+	background-color: #fff;
+	color: #36393f;
 }
